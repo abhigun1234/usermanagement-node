@@ -44,19 +44,20 @@ app.get('/', (req, res) => {
 
 
 
-app.post('/loggedin', (req, res) => {
-        User.findOne({
-            email: req.body.lUsername,
-            password: req.body.lPassword
-        }).then((docs) => {
-            if (docs === null) {
-                return res.status(400).send('<h1>Wrong Password and Email</h1>');
-            }
-            return res.render('page');
-        }, (e) => {
-            res.status(404).send(e);
-        })
-});
+// app.post('/loggedin', (req, res) => {
+//   console.log("hello")
+//         User.findOne({
+//             email: req.body.lUsername,
+//             password: req.body.lPassword
+//         }).then((docs) => {
+//             if (docs === null) {
+//                 return res.status(400).send('<h1>Wrong Password and Email</h1>');
+//             }
+//             return res.render('page', { files: files });
+//         }, (e) => {
+//             res.status(404).send(e);
+//         })
+// });
 
 
 app.post('/registered', (req, res) => {
@@ -119,27 +120,31 @@ const upload = multer({ storage });
 
 // @route GET /
 // @desc Loads form
-app.get('/loggedin', (req, res) => {
+app.post('/loggedin', (req, res) => {
   console.log( "gfs.files", gfs.files)
-  gfs.files.find().toArray((err, files) => {
+  // res.send("hello")
+  // alert(gfs.files)
+  files=[]
+  res.render('page', { files: files });
+  // gfs.files.find().toArray((err, files) => {
   
-    // Check if files
-    if (!files || files.length === 0) {
-      res.render('page', { files: false });
-    } else {
-      files.map(file => {
-        if (
-          file.contentType === 'image/jpeg' ||
-          file.contentType === 'image/png'
-        ) {
-          file.isImage = true;
-        } else {
-          file.isImage = false;
-        }
-      });
-      res.render('page', { files: files });
-    }
-  });
+  //   // Check if files
+  //   if (!files || files.length === 0) {
+  //     res.render('page', { files: false });
+  //   } else {
+  //     files.map(file => {
+  //       if (
+  //         file.contentType === 'image/jpeg' ||
+  //         file.contentType === 'image/png'
+  //       ) {
+  //         file.isImage = true;
+  //       } else {
+  //         file.isImage = false;
+  //       }
+  //     });
+  //     res.render('page', { files: files });
+  //   }
+  // });
 });
 
 // @route POST /upload

@@ -13,7 +13,7 @@
     }
   </style>
   <title>Mongo File Uploads</title>
-  <script src="/server.js"></script>
+
 </head>
 
 <body>
@@ -28,7 +28,7 @@
           </div>
           <input type="submit" value="Submit" class="btn btn-primary btn-block">
         </form>
-        <% if(files){ %>
+        <% if(files!==undefined || files!==null ){ %>
           <% files.forEach(function(file) { %>
             <div class="card card-body mb-3">
               <% if(file.isImage) { %>
