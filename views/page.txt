@@ -1,0 +1,294 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>UserLogics</title>
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="gstbilling.png" width="40" height="30" class="d-inline-block align-top">UserLogics
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutsoftware" data-scrollto-link>About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featureSection" data-scrollto-link>Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html" target="_blank">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-scrollto-link>Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--
+       
+    
+-->
+    <div id="freetrial">
+        <div class="centered">
+            <div class="container">
+                <h2>Welcome To UserLogics Billing Solution</h2>
+                <p>UserLogics Billing is packed with so many features</p>
+                <p>It will reduces your Headache and reduces paper work</p>
+                <button class="btn btn-success btn-lg">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid" id="aboutsoftware">
+        <div class="row">
+
+            <div class="col-sm-6">
+                <p style="color:blueviolet; margin-top: 100px;">ABOUT THE SOFTWARE</p>
+                <h4>BILLING SOFTWARE</h4>
+                <p>Goods & Services Tax Law in India is a comprehensive, multi-stage, destination-based tax that will be levied on every value addition. In simple words, GST is an indirect tax levied on the supply of goods and services. GST Law has replaced many indirect tax laws that previously existed in India.</p>
+            </div>
+            
+            <div class="col-sm-6 text-center" style="background-color:skyblue; height:80%;">
+                <img src="images/Capture.PNG" style="border-radius: 5px; padding: 10px; margin-top: 100px;" height="50%" width="60%">
+                <figcaption>Billing software Dashboard</figcaption>
+            </div>
+        </div>
+    </div>
+
+
+<!--photo will be add soon in intro 2-->
+<!--of stock and graphs-->
+    <div class="intro2">
+
+    </div>
+
+   
+    <!--      features section -->
+
+    <div class="container-fluid text-center" id="featureSection">
+        <h3 class="text-center" style="padding:20px">FEATURES</h3>
+        <hr>
+        <div class="row" id="left">
+
+            <div class="col-sm-4 left">
+                <img src="images/icons8-Accounting-64.png">
+                <h4>INVOICING & BILLING</h4>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+
+            </div>
+            <div class="col-sm-4 left">
+                <img src="images/icons8-Expensive-64.png">
+                <h4>EXPENSE TRACKING</h4>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+
+            </div>
+            <div class="col-sm-4 left">
+                <img src="images/icons8-User-64.png">
+                <h4>CLIENT MANAGEMENT</h4>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-4 left">
+                <img src="images/icons8-Driver-64.png">
+                <h4>DEALER MANAGEMENT</h4>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+
+            </div>
+            <div class="col-sm-4 left">
+                <img src="images/icons8-New%20Product-64.png">
+                <h4>PRODUCT MANAGEMENT</h4>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+
+            </div>
+            <div class="col-sm-4 left">
+                <img src="images/icons8-Select%20All-64.png">
+                <h4>REPORTS</h4>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+                <p>Add bill easily</p>
+                <p>sfknd</p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    
+<!--    SERVICES-->
+    <div class="container-fluid services" id="services">
+        <h1 class="text-center">SERVICES</h1>
+        <hr>
+        
+        <div class="row">
+            <div class="col-sm-6 s1 text-center">
+                <img src="images/128x128.png">
+                <h3>24/7 Support</h3>
+                <p>We are providing 24*7 services</p>
+            </div>
+            <div class="col-sm-6 s2 text-center">
+                <img src="images/chat.png">
+                <h3>Live Chat Support</h3>
+                <p>Our Chat Support is available</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-6 s2 text-center">
+                <i class="fa fa-wrench fa-5x" aria-hidden="true"></i>
+                <h3>Updations Regularly</h3>
+                <p>We provide updation after every 6month with extra cost as given in pricing.</p>
+            </div>
+            <div class="col-sm-6 s1 text-center">
+                <img src="images/laptop.png">
+                <h3>Live Assistance</h3>
+                <p>We are Giving peer to peer assitance through Teamviewer update</p>
+            </div>
+        </div>
+        
+<!--
+        <div class="row">
+            <div class="col-sm-6 s1">
+                <i class="fa fa-wrench fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="col-sm-6 s2">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-6 s2">
+                <i class="fa fa-wrench fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="col-sm-6 s1">
+            </div>
+        </div>
+        
+-->
+    </div>
+    
+<!--    -->
+    
+
+    <!--      CONTACT US-->
+    
+    
+    <div class="container-fluid" id="contact">
+       <h1 class="text-center" style="padding:20px;">CONTACT US</h1>
+        <hr>
+        <div class="row">
+                <div class="col-sm-12" id="map" style="width:100%; height:50%"></div>
+        </div>
+    </div>
+             <div class="container" id="contact2" style="padding:10px;">
+              <div class="row">
+              
+               <div class="col-sm-4">
+                <h5>Get in Touch</h5>
+                <hr>
+                <h6><b>UserLogics</b></h6>
+                
+                <p> <i class="fa fa-map-marker"></i><b>Address: </b>abc street no.2<br>panckula.</p>
+                <p><i class="fa fa-phone"></i><b>Phone</b>: +91-8146700491</p>
+                <p><i class="fa fa-envelope"></i><b>Email: </b>solutions@userlogics.com</p>
+                
+<!--
+                <h5>Get Social</h5>
+                <hr>
+                <div class="socialicons">
+                <i class="fa fa-facebook fa-3x"></i>
+                <i class="fa fa-instagram fa-3x"></i>
+                <i class="fa fa-twitter fa-3x"></i>
+                <i class="fa fa-linkedin fa-3x"></i>
+                </div>
+            
+-->
+            </div>
+            
+            <div class="col-sm-8">
+                <form>
+                <h5>Get in Touch with Us</h5>
+                <p>Drop a Note!</p>
+                
+                <div class="form-group">
+                   <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                   <label for="name">Email:</label>
+                    <input type="text" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                   <label>Message</label>
+                    <textarea class="form-control" rows="5"></textarea>
+                </div>
+                <button class="btn btn-success">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid text-center" id="footer" style="background-color:#2F4F4F;color:white;">
+        
+        
+        <div class="socialicons">
+                <i class="fa fa-facebook fa-3x"></i>
+                <i class="fa fa-instagram fa-3x"></i>
+                <i class="fa fa-twitter fa-3x"></i>
+                <i class="fa fa-linkedin fa-3x"></i>
+        </div>
+        ©2017 UserLogics Services Limited. All Rights Reserved
+    </div>
+
+    <script src="css/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="css/js/popper.min.js"></script>
+    <script src="css/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="css/js/index.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5SLdu3nAIhoybm0LnpCuq-WqrgPgt41w"
+  type="text/javascript"></script>
+
+</body>
+
+</html>

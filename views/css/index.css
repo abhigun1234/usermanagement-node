@@ -1,0 +1,179 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*-------------NAVBAR STYLING----------------*/
+.container{
+    width:97%;
+}
+.navbar {
+    font-size: 15px;
+    background-color: transparent;
+    padding: 30px;
+    transition: 0.5s
+}
+
+.navbar-light .navbar-brand {
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgba(0,0,0,.5); */
+    color: white;
+    font-size: 15px;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: skyblue;
+}
+
+nav.shrink {
+    background-color:skyblue;
+    padding:10;
+    transition: 1s;
+}
+
+
+/*---------------------------------------------*/
+#discountoffer {
+    padding: 10px;
+    background-color: red;
+}
+
+
+
+
+
+#freetrial {
+    background-image: url(images/safe_image-9.jpg);
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+#freetrial:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.intro2 {
+    background-image: url(images/ProfitBooks-Accounting-Software-Mac.png);
+    background-color: rgb(54, 125, 187);
+    background-size: 60%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    #background-size: cover;
+}
+
+
+#aboutsoftware {
+    margin:0;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    #tansform: translate(-50%, -50%);
+/*
+    border: solid #000;
+    border-width: 2px;
+*/
+    padding: 10px;
+    color: white;
+}
+
+
+/*
+row {
+    display: none;
+}
+*/
+
+#featureSection {
+    display: block;
+
+/*
+    height: 100%;
+    width: 100%;
+  
+*/
+}
+
+#featureSection .row .left {
+/*    display: none;*/
+    left:-1400px;
+}
+
+#featureSection .row .right {
+/*    display: none;*/
+    right:-1400px;
+}
+#featureSection{
+    #background-color: skyblue;
+}
+
+
+#contact2{
+    margin-top:40px;
+}
+.fa{
+    padding:10px;
+}
+
+.s1
+{
+    padding:30px;
+    background-color:skyblue;
+}
+.s2{
+    padding: 30px;
+}
+
+.services{
+ #margin-top: 100px; 
+    padding: 40px;
+}
+
+/*
+@media screen and (max-width:480px){
+    .intro2{
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+    }
+    #freetrial{
+        background-attachment: scroll;
+        background-position: top;
+        background-size: cover;
+    }
+}*/
+
+/*------------------------------------------*/
+/*pricing.html*/
+#pricingtable{
+    padding:10px;
+}
+#pricing{
+    height:30px;
+}
+
+#footer{
+    padding: 0
+}
+
+
+/*------------------------------------------*/
